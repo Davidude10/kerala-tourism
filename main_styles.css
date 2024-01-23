@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffe6b7;
+}
+
+header {
+    background-color: #2E86C1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E74C3C;
+}
+
+section#destinations div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#destinations div table {
+    border-spacing: 20px;
+}
+
+section#destinations div td {
+    text-align: center;
+}
+
+section#destinations div img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+div#intro {
+    padding: 20px;
+    margin-right: 20px;
+    background: #eff77e;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-shadow: yellow;
+    font-style: initial;
+    background-color: rgb(236, 230, 230);
+    color: rgb(255, 0, 0);
+    font: 35px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.snacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.snack {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 45%;
+    text-align: center;
+    color: #3203b3;
+    background-color: azure;
+}
+
+.snack img {
+    max-width: 100%;
+    width: 300px;
+    height: 175px;
+}
+
+.section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #06ad5f;
+}
+
+.section-details {
+    margin-top: 10px;
+}
+
+.airport-title,
+.port-title,
+.info-title {
+    font-size: 18px;
+    color: #3203b3;
+}
+
+.culture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.culture-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 45%;
+    text-align: center;
+    color: #3203b3;
+    background-color: azure;
+}
+
+.culture-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#06ad5f;
+}
+
+.culture-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.culture-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    align-content: center;
+    width: 500px;
+    height: 300px;
+}
+.festivity-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.festivity-item {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.festivity-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    align-items: center;
+}
+
+.festivity-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.festivity-description {
+    margin-top: 10px;
+}
+.packages
+{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 40%;
+    text-align: center;
+    color: #3203b3;
+    background-color: azure;
+}
+.packages_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
